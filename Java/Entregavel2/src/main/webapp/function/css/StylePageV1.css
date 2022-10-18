@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+
+.mainStyle {
+	width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 2rem;
+}
+
+.titleStyle {
+	font-size: 2.5rem;
+    @media(max-width: 550px){
+        font-size: 1.25rem;
+    } 
+}
+
+.inputContainer {
+	width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+}
+
+.inputStyle {
+	width: 120px;
+    max-width: 50vw;
+    padding: .6rem;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+
+    outline: none;
+  
+}
+
+.rowInputContainer {
+	width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}

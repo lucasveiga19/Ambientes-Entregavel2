@@ -1,0 +1,84 @@
+@charset "ISO-8859-1";
+
+body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Poppins', sans-serif; 
+        background: rgb(255,69,0);
+        color: rgb(0,0,0);
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    justify-content: flex-start;
+    background: rgb(255,69,0);
+    text-align: center;
+}
+
+.header {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .75rem;
+}
+
+.title2 {
+	font-size: 4.5rem;
+
+    @media(max-width: 550px){
+        font-size: 3.25rem;
+    }   
+}
+
+.subTitle {
+	font-size: .85rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,p{
+        margin: 0;
+        padding: 0;
+}
+
+.cardContainer {
+	width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.cardMain {
+	width: 280px;
+    background: rgb(255,165,0);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    gap: .50rem;
+    border-radius: 30px;
+    cursor: pointer;
+
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+
+    transition: 400ms;
+    transform: scale(1.05);
+}
+
+.title {
+	color: rgb(0,0,0);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
