@@ -37,7 +37,7 @@ font-size: 4.5rem;
 }
 
 .subTitle {
-font-size: .85rem;
+font-size: 1.10rem;
 }
 
 a {
@@ -78,22 +78,38 @@ transform: scale(1.05);
 }
 
 .cardMain2 {
-    width: 280px;
-    background: rgb(255,69,0);
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 1rem;
-    gap: .50rem;
-    border-radius: 30px;
-    cursor: pointer;
-    
-    overflow-y: hidden;
-    text-overflow: ellipsis;
-    
-    transition: 400ms;
-    transform: scale(1.05);
-    }
+width: 280px;
+background: rgb(255,69,0);
+display: flex;
+align-items: center;
+justify-content: flex-start;
+padding: 1rem;
+gap: .50rem;
+border-radius: 30px;
+cursor: pointer;
+
+overflow-y: hidden;
+text-overflow: ellipsis;
+
+transition: 400ms;
+transform: scale(1.05);
+}
+
+.cardMainImg {
+width: 95px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+padding: 1rem;
+gap: .50rem;
+border-radius: 30px;
+
+overflow-y: hidden;
+text-overflow: ellipsis;
+
+transition: 400ms;
+transform: scale(1.05);
+}
 
 .title {
 color: rgb(0,0,0);

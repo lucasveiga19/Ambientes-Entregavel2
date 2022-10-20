@@ -22,7 +22,7 @@ export const Title = styled.h1`
 `
 
 export const SubTitle = styled.h1`
-    font-size: 1rem;
+    font-size: 1.10rem;
     font-weight: 100;
     font-style: italic;
 `
@@ -56,7 +56,7 @@ export const Button = styled.button`
     border: none;
     border-radius: 20px;
     font-weight: 600;
-    background: var(--orange);
+    background: rgb(46, 139, 87);
     color: var(--white);
     cursor: pointer;
 

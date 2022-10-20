@@ -30,7 +30,7 @@ export const Title = styled.h1`
 `
 
 export const Subtitle = styled.p`
-    font-size: 1rem;
+    font-size: 1.10rem;
     font-style: italic;
 `
 

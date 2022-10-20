@@ -17,30 +17,33 @@
 	<div class="main">
       <header class="header">
         <h1 class="title2">Java</h1>
-        <h1 class="title2">Entregável 2</h1>
         <p class="subTitle">Trabalho de Ambientes de Desenvolvimento de software</p>
         <p class="subTitle">Lucas Uchôa da Veiga</p>
       </header>
       
       <div class="cardContainer">
-      		<div class="cardMain" id="prim">
-      			<h1 class="title"><a href="http://localhost:8080/Entregavel2/function/prim.jsp">Número Primo</a></h1>	
+      		<div class="cardMain">
+      			<h1 class="title"><a href="/Entregavel2/function/prim.jsp">Número Primo</a></h1>	
       		</div>
       		
       		<div class="cardMain">
-      			<h1 class="title"><a href="http://localhost:8080/Entregavel2/function/sum.jsp">Somatório</a></h1>
+      			<h1 class="title"><a href="/Entregavel2/function/sum.jsp">Somatório</a></h1>
       		</div>
       		
       		<div class="cardMain">
-      			<h1 class="title"><a href="http://localhost:8080/Entregavel2/function/fibo.jsp">Fibonacci</a></h1>
+      			<h1 class="title"><a href="/Entregavel2/function/fibo.jsp">Fibonacci</a></h1>
       		</div>
       		
       		<div class="cardMain">
-      			<h1 class="title"><a href="http://localhost:8080/Entregavel2/function/mdc.jsp">Máximo divisor comum</a></h1>
+      			<h1 class="title"><a href="/Entregavel2/function/mdc.jsp">Máximo divisor comum</a></h1>
       		</div>
       		
       		<div class="cardMain">
-      			<h1 class="title"><a href="http://localhost:8080/Entregavel2/function/sort.jsp">Quick Sort</a></h1>
+      			<h1 class="title"><a href="/Entregavel2/function/sort.jsp">Quick Sort</a></h1>
+      		</div>
+      		
+      		<div class="cardMain">
+      			<h1 class="title"><a href="/Entregavel2/function/cont.jsp">Contagem</a></h1>
       		</div>
       </div>
     </div>

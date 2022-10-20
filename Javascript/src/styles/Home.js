@@ -33,7 +33,7 @@ export const Title = styled.h1`
 `
 
 export const SubTitle = styled.p`
-    font-size: .85rem;
+    font-size: 1.10rem;
 `
 
 export const CardContainer = styled.div`

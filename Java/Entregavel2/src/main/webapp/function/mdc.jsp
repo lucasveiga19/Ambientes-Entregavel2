@@ -1,4 +1,4 @@
-<jsp:useBean id="fibo" class="Classes.MdcJava" type="Classes.MdcJava" scope="page" />
+<jsp:useBean id="mdc" class="Classes.MdcJava" type="Classes.MdcJava" scope="page" />
 
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
@@ -32,7 +32,7 @@
 		</div>
 		<h1 class="result">
 		<% if(request.getParameter("valor1") != null && request.getParameter("valor2") != null){%>
-			<%= fibo.calcula(request.getParameter("valor1"), request.getParameter("valor2")) %>
+			<%= mdc.calcula(request.getParameter("valor1"), request.getParameter("valor2")) %>
 		<%} %>
 		</h1>
 	</section>

@@ -16,7 +16,6 @@ export default function Home() {
     <Main>
       <Header>
         <Title>Javascript</Title>
-        <Title>Entregável 2</Title>
         <SubTitle>Trabalho de Ambientes de Desenvolvimento de software</SubTitle>
         <SubTitle>Lucas Uchôa da Veiga</SubTitle>
       </Header>
